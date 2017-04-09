@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" uploadOnCheckin="2fb08351-00dc-43f1-a3e6-d4511987fe43" notifyRemoteChanges="true">
+  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="arisushi" uploadOnCheckin="2fb08351-00dc-43f1-a3e6-d4511987fe43" notifyRemoteChanges="true">
     <serverData>
       <paths name="arisushi">
         <serverdata>
@@ -9,7 +9,14 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="rathena">
+      <paths name="marktest">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="testdepl">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
