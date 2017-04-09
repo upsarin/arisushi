@@ -2,322 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b38691e-7e71-40b6-98b7-f2e00bd56607" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/images/calendar-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/images/controls-sprite.png-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/images/hint.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/images/panel/top-panel-sprite-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/images/popup/popup-dark-buttons-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/images/popup/popup-dark-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/images/popup/popup-menu-sprite.2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/images/wait.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/panel/main/images/bx-admin-sprite-small-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/apple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/arrow1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/basket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/card.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/cash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/favicon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/logo_main.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/logo_rbk_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/mc2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/menu_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/menu_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/nofoto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/otziv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/otziv2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/pagination.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/plus_minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/plus_minus_grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/quest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/radio_mainpage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/shadow1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/tel-pic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/tel-pic2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/trigl1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/visa1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/visa2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/vk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/wm2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/yes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/images/zoom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qrcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/qrcode120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/select/pic1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/select/pic2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/select/pic3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/select/pic4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/select/pic5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/select/pic6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/041/15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/0d0/salaty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/151/vasabi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/159/skidka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/1ba/ginger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/1c6/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/201/DSC_0328.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/22c/korobochki.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/258/grin_roll_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/279/salaty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/2a5/skidka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/2af/salaty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/2f6/.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/35a/skidka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/37c/goryachee_supy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/3ad/news4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/3b4/.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/3c5/pitstsa-v-razdel-menyu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/42b/salaty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/446/skidka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/464/sety.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/47f/skidka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/48b/salaty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/48f/sety.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/494/action1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/4c0/74.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/4e5/s-novym-godom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/509/sety.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/5ea/.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/66e/Arigato_2896.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/6b2/.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/6cd/DSC_0328.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/74a/news1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/7bd/Arigato_2896.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/7c4/arigato-novogodnoy-set.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/7e5/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/7eb/deserty_napitki.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/7ef/sety.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/817/grin_roll_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/847/sause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/853/sety_aktsiya.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/891/Arigato_2896.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/89c/Arigato_2896.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/914/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/9a2/sety_aktsiya.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/a06/korobochki.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/a1e/grin_roll_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/ae0/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/b02/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/b02/74.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/b29/arigato-novost3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/b2a/news3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/b34/arigato-novost1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/b88/15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/b9d/sety.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/bb1/CABH4N8Y.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/c11/sety_aktsiya.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/c2b/.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/c61/.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/c9b/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/ca3/sushi_rolly.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/dee/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/df1/sety_aktsiya.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/e0a/.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/e28/news2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/e4b/grin_roll_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/eb0/arigato-novost2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/ebf/sety_aktsiya.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/ef1/korobochki.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/f19/grin_roll_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload/iblock/fc9/banner-14-fevralya.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/arisushi.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/action/10463/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/action/10463/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/action/8603/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/action/8603/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/action/9017/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/action/9017/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/raiting.php.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/reviews.php.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/kernel_main/kernel_main0.css-147926931544225.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/page_7b4c201c5fc5613f805e451b476d0895/page_7b4c201c5fc5613f805e451b476d08950.css-14792697818442.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/page_8ce6b7d209df488bd549d85d7d13704f/page_8ce6b7d209df488bd549d85d7d13704f.css-1450605032407.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/page_8ce6b7d209df488bd549d85d7d13704f/page_8ce6b7d209df488bd549d85d7d13704f0.css-1479279530289.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/page_9570aa47872762c904caa76ae88b1757/page_9570aa47872762c904caa76ae88b17570.css-1479410755450.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/page_991aae7a4dd5400e5888196071d43c62/page_991aae7a4dd5400e5888196071d43c620.css-1479269320575.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/page_9f2163314af8b83ddee223579ca598fa/page_9f2163314af8b83ddee223579ca598fa0.css-1479269975282.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/page_b9b48662990705c862cb52dbe085a460/page_b9b48662990705c862cb52dbe085a4600.css-1479369753284.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/page_c13dd350144ec3c321d49bcd4e300b39/page_c13dd350144ec3c321d49bcd4e300b390.css-1479271762224.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/page_d5cf4827b76df77048ba5b2d060c3fca/page_d5cf4827b76df77048ba5b2d060c3fca0.css-14792696858276.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/arigato_2014/template_d373473bc8bff42c101a230ca424205d/template_d373473bc8bff42c101a230ca424205d0.css-1479269315177.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/cache/js/s1/arigato_2014/kernel_main/kernel_main.js-1479269315269063.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core.map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_ajax.map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_ajax.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_date.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_date.map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_date.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_ls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_ls.map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_ls.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_popup.map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_window.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_window.map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/core/core_window.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/json/json2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/session.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/session.map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/session.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/utils.js-1256098787.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/utils.map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/js/main/utils.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/css/jcarousel.responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/css/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/css/style.css-ver=2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/css/style.css-ver=3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/js/jquery.jcarousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/js/jquery.placeholder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/js/jquery.slides.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/arigato_2014/js/script2.js-ver=2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/1853/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/1853/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2356/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2356/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2370/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2370/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2472/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2472/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2493/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2493/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2547/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2547/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2751/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2751/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2796/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2796/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2797/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2797/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2798/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2798/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2952/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/2952/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3008/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3008/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3073/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3073/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3218/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3218/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3260/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3260/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3356/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3356/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3409/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3409/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3464/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/3464/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/articles/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/legalinfo/ajax_element.php.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/legalinfo/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/mobile/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/2715/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/2715/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/2716/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/2716/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/2863/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/2863/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/2864/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/2864/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/8412/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/8412/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/8417/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/8417/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9175/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9175/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9185/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9185/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9190/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9190/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9191/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9191/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9192/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9192/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9193/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/9193/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/news/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/reviews/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/company/reviews/send.php-myname=.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/delivery/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/gotomobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.rating.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/ajax_element.php.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/birthday/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/birthday/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/birthday/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/brnl/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/brnl/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/brnl/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/chinese-boxes/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/chinese-boxes/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/chinese-boxes/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/deserts/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/deserts/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/deserts/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/garnir/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/garnir/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/garnir/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/hots/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/hots/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/hots/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/kem/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/kem/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/kem/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/krsk/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/krsk/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/krsk/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/lean/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/lean/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/lean/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/nsk/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/nsk/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/nsk/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/nvk/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/nvk/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/nvk/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/pizza/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/pizza/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/pizza/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/rolls/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/rolls/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/rolls/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/salad/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/salad/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/salad/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/sets-discont/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/sets-discont/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/sets-discont/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/sets/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/sets/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/sets/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/sous/DD.MM.YYYY.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/sous/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/sous/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu/www.arisushi.ru.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order/action.php.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order/action2014.php.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order/city_ajax.php.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order/order_from_slider.php.htm" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -331,9 +18,25 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="upsarin &lt;mvlad91@mail.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -459,12 +162,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491758458721</updated>
-      <workItem from="1491758460758" duration="1479000" />
+      <workItem from="1491758460758" duration="2403000" />
     </task>
+    <task id="LOCAL-00001" summary="v 0.0.1 uploading site">
+      <created>1491760443530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491760443530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1479000" />
+    <option name="totallyTimeSpent" value="2403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -474,6 +185,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -495,6 +207,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="v 0.0.1 uploading site" />
+    <option name="LAST_COMMIT_MESSAGE" value="v 0.0.1 uploading site" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -502,8 +219,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
