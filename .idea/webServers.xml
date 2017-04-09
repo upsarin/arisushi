@@ -5,7 +5,7 @@
       <webServer id="bf7fffaf-692d-4cdc-9a76-f1cf879d9a2c" name="arisushi" url="http://arisushi.temp.swtest.ru">
         <fileTransfer host="77.222.56.73" port="21" rootFolder="/public_html">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
