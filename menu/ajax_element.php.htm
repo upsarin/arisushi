@@ -1,0 +1,131 @@
+<html><head><meta http-equiv=Content-Type content='text/html; charset=windows-1251'></head>
+<div class="element-window-img"><img title="" alt="" src=""/></div>
+
+
+<div class="element-window-text">
+
+<div class="menu-item-one">
+
+<div class="element-window-text-name"></div>
+<div class="element-window-text-text"></div>
+<div style="background-color: #c6c6c6;height: 1px;width: 100%;margin-top: 21px;"></div>
+
+<div class="element-window-text-tovar-one">
+<div class="element-window-text-price">0<span style="font-size: 11pt;"> руб.</span></div>
+<div class="pb-pop-controls-window-one">
+        <div class="pb-pop-controls">
+        
+        <span class="pb-pop-c-dec pb-pop-c-dec-window " onclick="dec_tovar(this,'');"></span>
+        <div class="plus-minus-count"><b id="d">
+        
+        0        
+        
+        </b></div>
+        <span class="pb-pop-c-inc pb-pop-c-inc-window" onclick="add_tovar(this,'','');"></span>
+        <div style="clear: both;"></div>
+        </div>
+    </div>
+
+<div style="clear: both;"></div>
+</div>
+</div>
+
+
+<div class="menu-item-one-half" style="display: none;">
+<div class="element-window-text-name"></div>
+<div class="element-window-text-text"></div>
+<div style="background-color: #c6c6c6;height: 1px;width: 100%;margin-top: 21px;"></div>
+
+<div class="element-window-text-tovar-one">
+<div class="element-window-text-price">0<span style="font-size: 11pt;"> руб.</span></div>
+<div class="pb-pop-controls-window-one">
+        <div class="pb-pop-controls">
+        
+        <span class="pb-pop-c-dec " onclick="dec_tovar(this,'');"></span>
+        <div class="plus-minus-count"><b id="d">
+        
+        0        
+        
+        </b></div>
+        <span class="pb-pop-c-inc" onclick="add_tovar(this,'');"></span>
+        <div style="clear: both;"></div>
+        </div>
+    </div>
+
+<div style="clear: both;"></div>
+</div>
+</div>
+
+<div style="background-color: #c6c6c6;height: 1px;width: 100%;margin-top: 15px;margin-bottom: 15px;"></div>
+
+
+
+
+
+ 
+    
+
+
+
+
+
+
+
+
+
+
+<div class="menu-mass-window-one">
+  
+ </div>
+
+<div class="menu-mass-window-half" style="display: none;">
+  
+ </div>
+        
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+$(function(){    
+	$('.menu-select-window select').change(function(){
+        
+	    var  porc= $(this).val(); 
+        if (porc == "1/2") 
+        { 
+            
+            $(this).parent().parent().find('.menu-item-one').css("display", "none");
+            $(this).parent().parent().find('.menu-item-one-half').css("display", "block");
+            
+            $(this).parent().parent().find('.menu-mass-window-one').css("display", "none");
+            $(this).parent().parent().find('.menu-mass-window-half').css("display", "block");
+            
+            $(this).parent().parent().find('.pb-pop-controls-one').css("display", "none");
+            $(this).parent().parent().find('.pb-pop-controls-one-half').css("display", "block");
+        }
+        
+        if (porc == "1") 
+        { 
+            
+            $(this).parent().parent().find('.menu-item-one').css("display", "block");
+            $(this).parent().parent().find('.menu-item-one-half').css("display", "none");
+            
+            $(this).parent().parent().find('.menu-mass-window-one').css("display", "block");
+            $(this).parent().parent().find('.menu-mass-window-half').css("display", "none");
+            
+            $(this).parent().parent().find('.pb-pop-controls-one').css("display", "block");
+            $(this).parent().parent().find('.pb-pop-controls-one-half').css("display", "none");            
+        }
+        
+	
+	});
+    
+});
+</script>
+
