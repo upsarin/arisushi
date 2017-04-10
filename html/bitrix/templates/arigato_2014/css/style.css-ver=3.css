@@ -5,18 +5,18 @@ body
     background-color: #dbdcde;
 }
 
-/* Подложка */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 #overlay {
-	z-index: 3000; /* подложка должна быть выше слоев элементов сайта, но ниже слоя модального окна */
-	position: fixed; /* всегда перекрывает весь сайт */
-	background-color: #000; /* черная */
-	opacity: 0.8; /* но немного прозрачна */
+	z-index: 3000; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
+	position: fixed; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
+	background-color: #000; /* пїЅпїЅпїЅпїЅпїЅпїЅ */
+	opacity: 0.8; /* пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 	width: 100%; 
-	height: 100%; /* размером во весь экран */
+	height: 100%; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ */
 	top: 0; 
-	left: 0; /* сверху и слева 0, обязательные свойства! */
+	left: 0; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ 0, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ! */
 	
-	display: none; /* в обычном состоянии её нет) */
+	display: none; /* пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ) */
 }
 
 
@@ -25,9 +25,9 @@ body
     position: absolute;
     z-index: 4000;
     width: 100%; 
-	height: 100%; /* размером во весь экран */
+	height: 100%; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ */
 	top: 0; 
-	left: 0; /* сверху и слева 0, обязательные свойства! */
+	left: 0; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ 0, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ! */
 display: none;
 }
 
@@ -75,7 +75,7 @@ display: none;
     position: absolute;
     width: 150px;
     height: 150px;
-    background: url('../images/logo_main.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/logo_main.png*/;
+    background: url('../images/logo_main.png')/*tpa=/images/logo_main.png*/;
     margin-top:8px;
     z-index: 100;
     top:2px;
@@ -108,7 +108,7 @@ display: none;
 .header-citybar
 {
     position:absolute;
-    background: #b7b7b7; /* Для старых браузров */
+    background: #b7b7b7; /* пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
     background: linear-gradient(to top, #c6c6c6, #a1a1a1);
     background: -moz-linear-gradient(top, #c6c6c6, #a1a1a1);
     background: -webkit-linear-gradient(top, #c6c6c6, #a1a1a1);
@@ -218,7 +218,7 @@ z-index: 70;
 }
 .change-bar-item-yes
 {
- background: url('../images/yes.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/yes.png*/;
+ background: url('../images/yes.png')/*tpa=/images/yes.png*/;
  width: 17px;
  height: 17px;
  position: relative;
@@ -229,7 +229,7 @@ z-index: 70;
 
 .change-bar-item-no
 {
-    background: url('../images/no.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/no.png*/;
+    background: url('../images/no.png')/*tpa=/images/no.png*/;
  width: 17px;
  height: 17px;
  position: relative;
@@ -361,7 +361,7 @@ left:34px;
     position: relative;
     top:14px;
     left:20px;
-    background: url('../images/basket.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/basket.png*/;
+    background: url('../images/basket.png')/*tpa=/images/basket.png*/;
     float:left;
 }
 
@@ -392,7 +392,7 @@ left:34px;
     position: relative;
     top:17px;
     left:5px;
-    background: url('../images/visa1.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/visa1.png*/;
+    background: url('../images/visa1.png')/*tpa=/images/visa1.png*/;
     float:left;
 }
 
@@ -568,7 +568,7 @@ left:34px;
 {
     width: 220px;
     height: 10px;
-    background: url('../images/shadow1.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/shadow1.png*/;
+    background: url('../images/shadow1.png')/*tpa=/images/shadow1.png*/;
 }
 
 #mainpage-select
@@ -645,14 +645,14 @@ position: relative;
     margin-bottom: 15px;
 }
 
-#ovziv-news-select input[type="radio"] { /* Выбираем все радиокнопки и прячем их */
+#ovziv-news-select input[type="radio"] { /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ */
 	position: absolute;
 	left: -9999px;
 }
 
-#ovziv-news-select  label { /* Для всех label радиокнопок ставим картинку при обычном
- состоянием */ 
-	background: url('../images/radio_mainpage.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/radio_mainpage.png*/ 0px 6px no-repeat;
+#ovziv-news-select  label { /* пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ label пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */ 
+	background: url('../images/radio_mainpage.png')/*tpa=/images/radio_mainpage.png*/ 0px 6px no-repeat;
 	padding-left: 32px;
 }
 
@@ -661,8 +661,8 @@ position: relative;
     cursor: pointer;
 }
 
-#ovziv-news-select input[type="radio"]:checked + label { /* Для всех label у которых
- отмечены радиокнопки меняем картинку на состояние клика по кнопке */
+#ovziv-news-select input[type="radio"]:checked + label { /* пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ label пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
 	background-position: 0 -32px;
 }
 
@@ -682,7 +682,7 @@ display: block;
     text-align: center;
     display: block;
     cursor: pointer;
-    background: url('../images/otziv2.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/otziv2.png*/ 0px 0px no-repeat;
+    background: url('../images/otziv2.png')/*tpa=/images/otziv2.png*/ 0px 0px no-repeat;
     color:#888888;
     padding-top: 90px;
     font-size: 10pt;
@@ -757,7 +757,7 @@ display: block;
     width: 184px;
     height: 150px;
     display: block;
-    background: url('../images/otziv.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/otziv.png*/ 0px 0px no-repeat;
+    background: url('../images/otziv.png')/*tpa=/images/otziv.png*/ 0px 0px no-repeat;
     text-decoration: none;
     color:black;
 }
@@ -1022,7 +1022,7 @@ margin: 0 auto;
     width: 32px;
     height: 38px;
     right: 5px;
-    background: url(../images/new.png)/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/new.png*/;
+    background: url(../images/new.png)/*tpa=/images/new.png*/;
 }
 
 .menu-list-item:hover
@@ -1258,24 +1258,24 @@ border-left: 1px solid #c6c6c6;
     width: 30px;
     height: 36px;
     margin-left: 0px;
-    background-image: url('../images/plus_minus.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/plus_minus.png*/;
+    background-image: url('../images/plus_minus.png')/*tpa=/images/plus_minus.png*/;
     background-repeat: no-repeat;
 }
 
 .pb-pop-c-dec-grey,.pb-pop-c-inc-grey
 {
-    background-image: url('../images/plus_minus_grey.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/plus_minus_grey.png*/;
+    background-image: url('../images/plus_minus_grey.png')/*tpa=/images/plus_minus_grey.png*/;
 }
 
 
 .pb-pop-c-dec-order,.pb-pop-c-inc-order
 {
-    background-image: url('../images/plus_minus_grey.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/plus_minus_grey.png*/;
+    background-image: url('../images/plus_minus_grey.png')/*tpa=/images/plus_minus_grey.png*/;
 }
 
 .pb-pop-c-dec-specii,.pb-pop-c-inc-specii
 {
-    background-image: url('../images/plus_minus_grey.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/plus_minus_grey.png*/;
+    background-image: url('../images/plus_minus_grey.png')/*tpa=/images/plus_minus_grey.png*/;
 }
 
 
@@ -1433,14 +1433,14 @@ border-left: 1px solid #c6c6c6;
 
 .menu-select-razmer-bot
 {
- height: 5px;		/* Размеры подготовленной картинки */
+ height: 5px;		/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
  width: 8px;
- position: absolute;		/* Размещаем объект по правому краю */
+ position: absolute;		/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
  right: 8px;
  top: 14px;
  bottom: 0;
  z-index: 5;
- background: url('../images/arrow1.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/arrow1.png*/ 0px 0px no-repeat;
+ background: url('../images/arrow1.png')/*tpa=/images/arrow1.png*/ 0px 0px no-repeat;
 }	
 
 .element-window-img img
@@ -1552,7 +1552,7 @@ border-left: 1px solid #c6c6c6;
     position: absolute;
     width: 14px;
     height: 14px;
-    background: url('../images/close.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/close.png*/no-repeat;
+    background: url('../images/close.png')/*tpa=/images/close.png*/no-repeat;
     right: -20px;
     top:-20px;
     cursor: pointer;
@@ -1911,7 +1911,7 @@ border-left: 1px solid #c6c6c6;
     position: relative;
     width: 884px;
     height: 31px;
-    background: url('../images/quest.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/quest.png*/no-repeat;
+    background: url('../images/quest.png')/*tpa=/images/quest.png*/no-repeat;
     z-index: 10;
 }
 
@@ -2382,7 +2382,7 @@ display: inline-block;
     padding-bottom: 12px;
     border: 1px solid #6dac86;
     border-radius: 5px 5px 5px 5px;
-    background: #529d70; /* Для старых браузров */
+    background: #529d70; /* пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
     background: linear-gradient(to top, #529d70, #7ac899);
     color:white;
     
@@ -2605,7 +2605,7 @@ padding-right: 0px;
 {
     width: 300px;
     height: 250px;
-    background:  url('../images/zoom.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/zoom.png*/ rgba(0, 0, 0, 0.5) no-repeat 131px 105px;
+    background:  url('../images/zoom.png')/*tpa=/images/zoom.png*/ rgba(0, 0, 0, 0.5) no-repeat 131px 105px;
     display: none;
 }
 
@@ -2647,7 +2647,7 @@ padding-right: 0px;
     float:left;
     width: 64px;
     height: 0px;
-    background:  url('../images/cash.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/cash.png*/ no-repeat;
+    background:  url('../images/cash.png')/*tpa=/images/cash.png*/ no-repeat;
     margin-left: 10px;
     margin-right: 51px;
     padding-top: 70px;
@@ -2660,7 +2660,7 @@ padding-right: 0px;
     float:left;
     width: 64px;
     height: 0px;
-    background:  url('../images/card.png')/*tpa=http://www.arisushi.ru/bitrix/templates/arigato_2014/images/card.png*/ no-repeat;
+    background:  url('../images/card.png')/*tpa=/images/card.png*/ no-repeat;
     margin-left: 10px;
     padding-top: 70px;
     color:#888888;
