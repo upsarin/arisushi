@@ -151,7 +151,9 @@
                 </div>
             </div>
         </div>
+
         <? include $content; ?>
+
         <div id="service-quest">Есть замечания к сервису? Звоните +7-983-547-77-88</div>
         <div id="footer">
             <div id="footer-in">
@@ -216,72 +218,13 @@
                 <button id="choose-city-cancel">Не менять город</button>
             </center>
         </div>-->
-        <!-- Yandex.Metrika informer -->
-        <a href="javascript:if(confirm(%27https://metrika.yandex.ru/stat/?id=20335294&from=informer  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://metrika.yandex.ru/stat/?id=20335294&from=informer%27" tppabs="https://metrika.yandex.ru/stat/?id=20335294&from=informer"
-           target="_blank" rel="nofollow"><img src="../bs.yandex.ru/informer/20335294/3_1_FFFFFFFF_EFEFEFFF_0_pageviews.png" tppabs="http://bs.yandex.ru/informer/20335294/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
-                                               style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:20335294,lang:'ru'});return false}catch(e){}"/></a>
-        <!-- /Yandex.Metrika informer -->
 
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript">
-            (function (d, w, c) {
-                (w[c] = w[c] || []).push(function() {
-                    try {
-                        w.yaCounter20335294 = new Ya.Metrika({id:20335294,
-                            webvisor:true,
-                            clickmap:true,
-                            trackLinks:true,
-                            accurateTrackBounce:true});
-                    } catch(e) { }
-                });
 
-                var n = d.getElementsByTagName("script")[0],
-                    s = d.createElement("script"),
-                    f = function () { n.parentNode.insertBefore(s, n); };
-                s.type = "text/javascript";
-                s.async = true;
-                s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
 
-                if (w.opera == "[object Opera]") {
-                    d.addEventListener("DOMContentLoaded", f, false);
-                } else { f(); }
-            })(document, window, "yandex_metrika_callbacks");
-        </script>
-        <noscript>
-            <div>
-                <img src="http://mc.yandex.ru/watch/20335294-1" tppabs="http://mc.yandex.ru/watch/20335294" style="position:absolute; left:-9999px;" alt="" />
-            </div>
-        </noscript>
-        <!-- /Yandex.Metrika counter -->
 
-        <!-- begin of Top100 code -->
-        <script id="top100Counter" type="text/javascript" src="http://counter.rambler.ru/top100.jcn-3148411.js" tppabs="http://counter.rambler.ru/top100.jcn?3148411"></script>
-        <noscript>
-            <a href="javascript:if(confirm(%27http://top100.rambler.ru/navi/3148411/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://top100.rambler.ru/navi/3148411/%27" tppabs="http://top100.rambler.ru/navi/3148411/">
-                <img src="http://counter.rambler.ru/top100.cnt-3148411.gif" tppabs="http://counter.rambler.ru/top100.cnt?3148411" alt="Rambler's Top100" border="0" />
-            </a>
 
-        </noscript>
-        <!-- end of Top100 code -->
 
-        <!-- Rating@Mail.ru counter -->
-        <script type="text/javascript">
-            var _tmr = window._tmr || (window._tmr = []);
-            _tmr.push({id: "2716894", type: "pageView", start: (new Date()).getTime()});
-            (function (d, w, id) {
-                if (d.getElementById(id)) return;
-                var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
-                ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
-                var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
-                if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
-            })(document, window, "topmailru-code");
-        </script>
-        <noscript>
-            <div style="position:absolute;left:-10000px;">
-                <img src="http://top-fwz1.mail.ru/counter2-id=2716894;js=na.gif" tppabs="http://top-fwz1.mail.ru/counter?id=2716894;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
-            </div>
-        </noscript>
-        <!-- //Rating@Mail.ru counter --><!-- 013257956d849493 -->
+
 
         <script type="text/javascript">
             (function ct_load_script() {

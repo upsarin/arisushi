@@ -1,39 +1,42 @@
 @font-face {
-    font-family: Prosto2; /* vарнитура шрифта */
-    src: url(/css/fonts/bCUJ5v2X.ttf); /* ѕуть к файлу со шрифтом */
+    font-family: Prosto2; /* vпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    src: url(/css/fonts/bCUJ5v2X.ttf); /* пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 @font-face {
-    font-family: Prosto; /* vарнитура шрифта */
-    src: url(/css/fonts/4Jj2FfSi.ttf); /* ѕуть к файлу со шрифтом */
+    font-family: Prosto; /* vпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    src: url(/css/fonts/4Jj2FfSi.ttf); /* пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 @font-face {
-    font-family: amaranthBold; /* vарнитура шрифта */
-    src: url(/css/fonts/amaranth-bold.ttf); /* ѕуть к файлу со шрифтом */
+    font-family: amaranthBold; /* vпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    src: url(/css/fonts/amaranth-bold.ttf); /* пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 @font-face {
-    font-family: amaranthBolditalic; /* vарнитура шрифта */
-    src: url(/css/fonts/amaranth-bolditalic.ttf); /* ѕуть к файлу со шрифтом */
+    font-family: amaranthBolditalic; /* vпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    src: url(/css/fonts/amaranth-bolditalic.ttf); /* пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 @font-face {
-    font-family: amaranthItalic; /* vарнитура шрифта */
-    src: url(/css/fonts/amaranth-italic.ttf); /* ѕуть к файлу со шрифтом */
+    font-family: amaranthItalic; /* vпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    src: url(/css/fonts/amaranth-italic.ttf); /* пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 @font-face {
-    font-family: amaranthRegular; /* vарнитура шрифта */
-    src: url(/css/fonts/amaranth-regular.ttf); /* ѕуть к файлу со шрифтом */
+    font-family: amaranthRegular; /* vпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    src: url(/css/fonts/amaranth-regular.ttf); /* пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 	font-weight
 }
 @font-face {
-    font-family: Balthazar; /* vарнитура шрифта */
-    src: url(/css/fonts/Balthazar-Regular.ttf); /* ѕуть к файлу со шрифтом */
+    font-family: Balthazar; /* vпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    src: url(/css/fonts/Balthazar-Regular.ttf); /* пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 
 body {
-	width: 99%;
+    width: 99%;
     height: 100%;
-	background-image: url(/images/fon.jpg);
+    background-image: url(/css/images/wall_2.jpg);
+    /* background: radial-gradient(circle farthest-side at 30px 20px, #fff, rgba(101, 175, 21, 0.68)); */
+    background-attachment: fixed;
     color: white;
     font-family: Prosto;
+    min-height: 870px;
 }
 table {
 	text-align:center;
@@ -57,19 +60,21 @@ select {
     left: 0px;
 	height: 60px;
     color: black;
-    background-image: url(/images/fon2.jpg);
+    /*background-image: url(/images/fon2.jpg); */
+    background: rgba(60, 112, 187, 0.55);
     width: 100%;
     z-index: 1000000;
 }
 .main-block {
-    position: relative;
-    top: 100px;
-    left: 0px;
-    
+    /* position: relative; */
+    /* top: 90px; */
+    /* left: 0px; */
     color: black;
     width: 100%;
-    min-height: 99%;
+    /* min-height: 99%; */
     z-index: 3;
+    height: auto;
+    margin-top: 70px;
 }
 .pagination {
 	margin: 25px;
@@ -90,28 +95,39 @@ select {
     text-decoration: none;
 }
 .left-menu {
-	position: relative;
-    top: 0px;
+    position: fixed;
+    top: 70px;
     left: 0px;
-	width: 16%;
+    width: 220px;
     padding: 0px 25px 0px 0px;
-    height: 100%;
+    height: auto;
     float: left;
-    background-color: rgba(255,255,255,0.3);
+    background: rgba(60, 112, 187, 0.55);
+}
+.left-menu-cats {
+    width: 242px;
+    color: black;
+    height: 320px;
+    border-left: 3px solid #6ab42f;
+    position: fixed;
+    top: 300px;
+    left: 0px;
+    overflow: auto;
 }
 .content {
     position: relative;
-    top: 0px;
-    left: 10px;
-	width: 78%;
-	height: auto;
+    /* top: 0px; */
+    left: 240px;
+    width: 78%;
+    height: auto;
     float: left;
-    background-color: rgba(255,255,255,0.3);
-	padding: 0px 20px;
-	text-align: left;
+    /* background-color: rgba(255,255,255,0.3); */
+    background: rgba(60, 112, 187, 0.41);
+    padding: 0px 20px;
+    text-align: left;
 }
 .count {
-	color: #6ab42f;
+	color: #ffa500;
 }
 
 .left {
@@ -131,11 +147,11 @@ list-style: none;
 ul li a{
 	text-align: center;
     text-decoration: none;
-    color: black;
+    color: #ececec;
 	font-weight: bold;
 }
 .phrase {
-    color: #D37373;
+    color: #f9f2f2;
     font-weight: bold;
     font-family: Prosto2;
 }
@@ -160,7 +176,7 @@ ul li a:hover{
 	
 }
 .page-table a {
-	color: orange;
+	color: rgb(47, 70, 109);
 }
 .page-table a:hover {
 	color: grey;
@@ -174,10 +190,10 @@ ul li a:hover{
     color: rgba(186, 182, 182, 0.82);
 }
 .admin-top li a:hover{
-	color: black;
+	color: orange;
     text-decoration: none;
-    border: 2px solid white;
-	box-shadow: 6px -4px 10px 4px rgba(0,0,0,0.5);
+    border: 1px solid white;
+	box-shadow: 6px -4px 10px 4px orange;
     padding: 1px;
     background-color: rgba(0,0,0, 0.3);
 	
@@ -204,7 +220,7 @@ ul li a:hover{
 	box-shadow: 6px -4px 10px 4px rgba(0,0,0,0.5);
 }
 a.active {
-	border: 3px solid grey;
+	border: 3px solid #242b26;
     padding: 5px 12px;
 }
 .container-block {

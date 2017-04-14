@@ -1,6 +1,58 @@
 
 	<div class="sicky-wrapper-free-space"></div>
-	
+    <div class="left-menu-cats" >
+        <ul style="margin-left: 0px;">
+            <li <?=($_SESSION['user']['filter']['cat'] == 0) ? "class='active'" : ""?>><a href="/<?=$array['model']?>/content/?c=0" id="0">Все <span class="count">(<?=Element::countElements(null, null, null)?>)</span></a></li>
+            <?
+            $filter = array("active" => "Y", "parent" => 1);
+            $cats = Element::SelectAll('cats', $filter, null, null);
+            ?>
+            <? foreach($cats as $c_count => $cat){ ?>
+                <li <?=($_SESSION['user']['filter']['cat'] == $cat['id']) ? "class='active'" : ""?>><a href="/<?=$array['model']?>/content/?c=<?=$cat['id']?>" id="<?=$cat['id']?>"><?=$cat['name']?> <span class="count">(<?=Element::countElements(null, null, array("cat" => $cat['id']))?>)</span></a></li>
+                <?
+                $filter = array("active" => "Y", "parent" => $cat['id']);
+                $cats_child = Element::SelectAll('cats', $filter, null, null);
+                if(count($cats_child) > 0){ ?>
+
+                    <ul class="child" id="child-<?=$cat['id']?>" <?=($_SESSION['user']['filter']['cat'] == $cat['id']) ? "style='display:block'" : ""?>>
+
+                        <?foreach($cats_child as $child_count => $child_cat){?>
+
+                            <li <?=($_SESSION['user']['filter']['cat'] == $child_cat['id']) ? "class='active'" : ""?>><a href="/<?=$array['model']?>/content/?c=<?=$child_cat['id']?>" id="<?=$child_cat['id']?>"><?=$child_cat['name']?> <span class="count">(<?=Element::countElements(null, null, array("cat" => $child_cat['id']))?>)</span></a></li>
+                            <?if($_SESSION['user']['filter']['cat'] == $child_cat['id']){?>
+                                <style>
+                                    #child-<?=$cat['id']?> {
+                                        display: block !important;
+                                    }
+                                </style>
+                            <? } ?>
+                            <?
+                            $filter = array("active" => "Y", "parent" => $child_cat['id']);
+                            $cats_child = Element::SelectAll('cats', $filter, null, null);
+                            if(count($cats_child) > 0){ ?>
+                                <ul class="child" id="child-<?=$child_cat['id']?>" <?=($_SESSION['user']['filter']['cat'] == $child_cat['id']) ? "style='display:block'" : ""?>>
+
+                                    <?foreach($cats_child as $child_count2 => $child_cat2){?>
+                                        <li <?=($_SESSION['user']['filter']['cat'] == $child_cat2['id']) ? "class='active'" : ""?>><a href="/<?=$array['model']?>/content/?c=<?=$child_cat2['id']?>" id="<?=$child_cat2['id']?>"><?=$child_cat2['name']?> <span class="count">(<?=Element::countElements(null, null, array("cat" => $child_cat2['id']))?>)</span></a></li>
+                                        <?if($_SESSION['user']['filter']['cat'] == $child_cat2['id']){?>
+                                            <style>
+                                                #child-<?=$child_cat['id']?> {
+                                                    display: block !important;
+                                                }
+                                            </style>
+                                        <? } ?>
+                                    <? } ?>
+                                </ul>
+                            <? } ?>
+                        <? } ?>
+                    </ul>
+
+                <? } ?>
+            <? } ?>
+
+
+        </ul>
+    </div>
 
 				<?if($array["action"] == "create" || $array["action"] == "edit") { ?>
 	<div class="container main-block" id="joinOurTeamFull" style="float: left;">
@@ -16,7 +68,7 @@
 					</div>	
 	</div>	
 				<? } else { ?>
-	<div class="container main-block" id="joinOurTeamFull" style="width: 60%;
+	<div class="container main-block" id="joinOurTeamFull" style="width: 100%;
     float: left;">
 					<h2><?=$array["title"]?></h2>
 					<? if(isset($_GET['phrase']) && !empty($_GET['phrase'])){ ?>
@@ -78,65 +130,7 @@
 				
 	
 	</div>
-<div class="left-menu-cats" style="
-margin-top: 110px;
-    float: right;
-    width: 39%;
-    color: black;
-    height: auto;
-    border-left: 3px solid #6ab42f;" >
-	<ul style="margin-left: 0px;">
-		<li <?=($_SESSION['user']['filter']['cat'] == 0) ? "class='active'" : ""?>><a href="/<?=$array['model']?>/content/?c=0" id="0">Все <span class="count">(<?=Element::countElements(null, null, null)?>)</span></a></li>
-	<?
-		$filter = array("active" => "Y", "parent" => 1);
-		$cats = Element::SelectAll('cats', $filter, null, null);
-	?>
-	<? foreach($cats as $c_count => $cat){ ?>
-		<li <?=($_SESSION['user']['filter']['cat'] == $cat['id']) ? "class='active'" : ""?>><a href="/<?=$array['model']?>/content/?c=<?=$cat['id']?>" id="<?=$cat['id']?>"><?=$cat['name']?> <span class="count">(<?=Element::countElements(null, null, array("cat" => $cat['id']))?>)</span></a></li>
-		<?
-		$filter = array("active" => "Y", "parent" => $cat['id']);
-		$cats_child = Element::SelectAll('cats', $filter, null, null);
-		if(count($cats_child) > 0){ ?>
-		
-			<ul class="child" id="child-<?=$cat['id']?>" <?=($_SESSION['user']['filter']['cat'] == $cat['id']) ? "style='display:block'" : ""?>>
-			
-			<?foreach($cats_child as $child_count => $child_cat){?>
-			
-				<li <?=($_SESSION['user']['filter']['cat'] == $child_cat['id']) ? "class='active'" : ""?>><a href="/<?=$array['model']?>/content/?c=<?=$child_cat['id']?>" id="<?=$child_cat['id']?>"><?=$child_cat['name']?> <span class="count">(<?=Element::countElements(null, null, array("cat" => $child_cat['id']))?>)</span></a></li>
-					<?if($_SESSION['user']['filter']['cat'] == $child_cat['id']){?>
-						<style>
-							#child-<?=$cat['id']?> { 
-								display: block !important;
-							}
-						</style>
-					<? } ?>
-				<?
-				$filter = array("active" => "Y", "parent" => $child_cat['id']);
-				$cats_child = Element::SelectAll('cats', $filter, null, null);
-				if(count($cats_child) > 0){ ?>
-					<ul class="child" id="child-<?=$child_cat['id']?>" <?=($_SESSION['user']['filter']['cat'] == $child_cat['id']) ? "style='display:block'" : ""?>>
-					
-					<?foreach($cats_child as $child_count2 => $child_cat2){?>
-						<li <?=($_SESSION['user']['filter']['cat'] == $child_cat2['id']) ? "class='active'" : ""?>><a href="/<?=$array['model']?>/content/?c=<?=$child_cat2['id']?>" id="<?=$child_cat2['id']?>"><?=$child_cat2['name']?> <span class="count">(<?=Element::countElements(null, null, array("cat" => $child_cat2['id']))?>)</span></a></li>
-						<?if($_SESSION['user']['filter']['cat'] == $child_cat2['id']){?>
-							<style>
-								#child-<?=$child_cat['id']?> { 
-									display: block !important;
-								}
-							</style>
-						<? } ?>
-					<? } ?>
-					</ul>
-				<? } ?>
-			<? } ?>
-			</ul>
-			
-		<? } ?>
-	<? } ?>
-		
-		
-	</ul>
-</div>
+
 <? } ?>
 <script>
 
