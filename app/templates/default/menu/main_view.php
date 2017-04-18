@@ -6,7 +6,7 @@
     <div id="menu">
         <div id="menu-list">
             <a href="/menu/chinese-boxes/" class="menu-list-item  newtag <?=($_SESSION['user']['cat_alias'] == "chinese-boxes") ? "active" : ""?>"><div class="menu-uf_new"></div>Китайские коробочки<div style="clear: both;"></div></a>
-            <a href="/menu/rolls/" class="menu-list-item <?=($_SESSION['user']['cat_alias'] == "rolls") ? "active" : ""?>">Суши и Роллы</a>
+            <a href="/menu/rolls/" class="menu-list-item <?=($_SESSION['user']['cat_alias'] == "rolls" || !$_SESSION['user']['cat_alias']) ? "active" : ""?>">Суши и Роллы</a>
             <a href="/menu/sets/" class="menu-list-item  <?=($_SESSION['user']['cat_alias'] == "sets") ? "active" : ""?>">Сеты</a>
             <a href="/menu/birthday/" class="menu-list-item  <?=($_SESSION['user']['cat_alias'] == "birthday") ? "active" : ""?>">Сеты Именинникам</a>
             <a href="/menu/deserts/" class="menu-list-item  <?=($_SESSION['user']['cat_alias'] == "deserts") ? "active" : ""?>">Десерты и Напитки</a>
@@ -46,14 +46,15 @@
                                 </div>
                             <? } ?>
                         </div>
-                        <div class="menu-select">
-                            <select name="select" class="menu-select-razmer">
-                                <option value="1">порция</option>
-                                <option value="1/2">половина порции</option>
-                            </select>
-                            <a class="menu-select-razmer-bot"></a>
-                        </div>
-
+                        <?if($element['half'] == "y") { ?>
+                            <div class="menu-select">
+                                <select name="select" class="menu-select-razmer">
+                                    <option value="1">порция</option>
+                                    <option value="1/2">половина порции</option>
+                                </select>
+                                <a class="menu-select-razmer-bot"></a>
+                            </div>
+                        <? } ?>
                         <div class="pb-pop-controls-one">
                             <div class="pb-pop-controls">
 

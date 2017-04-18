@@ -68,6 +68,7 @@ class Model
 		if($_REQUEST['filter']['cancel'] == "сброс" || $_REQUEST['filter'] == "N"){
 			unset($_SESSION['user']['filter']);
 			unset($_REQUEST['filter']);
+            unset($_SESSION['user']['cat_alias']);
 		} else {
 			unset($_REQUEST['filter']['submit']);
 		}
@@ -87,11 +88,15 @@ class Model
 		}
 		if($routes[1] == "menu"){
             $cat_id = Element::SelectAll($table = "cats", $filter = array("alias" => $routes[2]));
-
+            unset($_SESSION['user']['cat_alias']);
 		    if(count($cat_id) > 0) {
                 $_REQUEST['filter']['cat'] = $cat_id[0]['id'];
                 $_SESSION['user']['cat_alias'] = $cat_id[0]['alias'];
                 $_SESSION['user']['filter']['cat'] = $cat_id[0]['id'];
+            } else {
+                $_REQUEST['filter']['cat'] = "9";
+                $_SESSION['user']['cat_alias'] = "rolls";
+                $_SESSION['user']['filter']['cat'] = "9";
             }
         }
 
