@@ -107,13 +107,15 @@ class Router
 										$page_info['action'] = $routes[3];
 									}
 								}
-							} else {
+							}else if($routes[1] == "menu"){
+                                $page_info['action'] = "index";
+                            } else {
 								$page_info['action'] = $routes[2];
 							}
 								
 							
 						 } else {
-							$page_info['action'] = "index";
+							 $page_info['action'] = "index";
 						 }
 
 						$obj->$page_info['action']($page_info);	

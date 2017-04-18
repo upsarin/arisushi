@@ -85,6 +85,15 @@ class Model
 			$_SESSION['user']['filter']['cat'] = $_REQUEST['c'];
 
 		}
+		if($routes[1] == "menu"){
+            $cat_id = Element::SelectAll($table = "cats", $filter = array("alias" => $routes[2]));
+
+		    if(count($cat_id) > 0) {
+                $_REQUEST['filter']['cat'] = $cat_id[0]['id'];
+                $_SESSION['user']['cat_alias'] = $cat_id[0]['alias'];
+                $_SESSION['user']['filter']['cat'] = $cat_id[0]['id'];
+            }
+        }
 
 
 		if(isset($_REQUEST['name']) && (!empty($_REQUEST['name']))){
