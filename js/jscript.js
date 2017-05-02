@@ -13,26 +13,7 @@ function AjaxFunc(url, type, data, params){
 $(document).ready(function(event){
 	
 
-	$('#shortlinkForm').submit(function(e){
-		var link = $("input[name='main[orig_url]']").val();
-		if(link != "" && link != "undefined"){
-			var data = "action=save_data&module=shortlink&iblock_name=shortlink&main[orig_url]=" + link;
-			data = data + '&ajax=Y';
-			
-			$.ajax({
-			  url: "/katalog/",
-			  type: "POST",
-			  data: data,
-			  success: function(html){
-					console.log("123");			
-			  }
-			});
-		} else {
-			$('shortlinkForm').append('<div class="error_mess">Заполните "Оригинальная ссылка"</div>');
-			link.focus();
-		}
-		return false;
-	});	
+
 
 	$('#edit-list li a').click(function(){
 		var question = "Вы уверены в том, что хотите удалить эту фотографию?";

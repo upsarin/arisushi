@@ -106,17 +106,13 @@ class DBConnect {
 
     public function Delete($where, $table){
 
+
         foreach($where as $key => $val){
-
             $sql = 'DELETE FROM '. $table .' WHERE `'. $key .'`=:'. $key .' LIMIT 1';
-
             $sth = $this->_conn->prepare($sql);
-
             $sth->bindValue(':' .$key, $val);
 
             $sth->execute();
-
-
         }
 
     }

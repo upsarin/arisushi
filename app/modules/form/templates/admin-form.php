@@ -3,9 +3,9 @@
 //array - содержит инфо модуля
 //page - содержит id текущей страницы (полезно для менюх)
 ?>
-<script type="text/javascript"> 
+<script type="text/javascript">
   $(document).ready(function(){ $('#tab-container').easytabs(); });
-</script> 
+</script>
 
 <h3><?=(isset($data['VALUES'][0]['id'])) ? "Настройка элемента ID". $data['VALUES'][0]['id'] : "Создание нового элемента"?></h3>
 <style>
@@ -19,11 +19,11 @@
 <?$routes = explode('/', $_SERVER['REQUEST_URI']);?>
 <?
 		$page = Element::Page(null, $routes[4]);
-		
+
 foreach($data['FIELDS'] as $key => $val){
 	if($val['field_type'] == 'main'){
 		if($val['code'] == 'metakeys' || $val['code'] == 'keywords' || $val['code'] == 'index' || $val['code'] == 'metakeys'){
-			$val['value'] = $data['VALUES'][0][$val['code']]; 
+			$val['value'] = $data['VALUES'][0][$val['code']];
 			$val['code'] = 'main['. $val['code'] .']';
 			$seo[$key] = $val;
 		} else if($val['code'] == 'name' || $val['code'] == 'model' || $val['code'] == 'title' || $val['code'] == 'active' || $val['code'] == 'alias' || $val['code'] == 'fields' || $val['code'] == 'active_from' || $val['code'] == 'active_to' || $val['code'] == 'user' || $val['code'] == 'first_name' || $val['code'] == 'last_name' || $val['code'] == 'middle_name' || $val['code'] == 'login' || $val['code'] == 'active' || $val['code'] == 'status' || $val['code'] == 'email' || $val['code'] == 'phone' || $val['code'] == 'site' || $val['code'] == 'group' || $val['code'] == 'active' || $val['code'] == 'list_limit' || $val['code'] == 'parent' || $val['code'] == 'cat' || $val['code'] == 'desc' || $val['code'] == 'preview_desc' || $val['code'] == 'desc'){
@@ -64,8 +64,8 @@ foreach($data['FIELDS'] as $key => $val){
 	} else {
 		$params = array('element_id' => $routes[4], 'code' => $val['code']);
 		$field_value = Element::GetFeildsValues($params, null, 'field_value');
-		
-		$val['value'] = $field_value[0]['value']; 
+
+		$val['value'] = $field_value[0]['value'];
 		$val['edit_code'] = $val['code'];
 		$val['code'] = 'alter['. $val['code'] .']';
 		$base[$key] = $val;
@@ -76,10 +76,10 @@ foreach($data['FIELDS'] as $key => $val){
 					<?if(isset($_GET['phrase']) && !empty($_GET['phrase'])){?>
 						<h3><?=$_GET['phrase']?></h3>
 					<?}?>
-	
+
 	<form action="" method="POST" class="form" enctype=multipart/form-data>
 		<input type="hidden" name="action" value="<?=($routes[3] == 'edit') ? 'update_data' : 'save_data'?>" />
-		<input type="hidden" name="module" value="form" /> 
+		<input type="hidden" name="module" value="form" />
 		<?if($routes[1] == 'administrator' && $routes[2] == 'content'){
 			$iblock_name = $routes[2];
 		?>
@@ -89,37 +89,37 @@ foreach($data['FIELDS'] as $key => $val){
 			$iblock_name = $routes[2];
 		?>
 		<input type="hidden" name="iblock_name" value="<?=$iblock_name?>" />
-		<?	
+		<?
 		} else if($routes[1] == 'administrator' && $routes[2] == 'pages'){
 			$iblock_name = $routes[2];
 		?>
 		<input type="hidden" name="iblock_name" value="<?=$iblock_name?>" />
-		<?	
+		<?
 		} else {
 			if(is_numeric($routes[4])){
 				$id = $routes[4];
 				$con_info = Element::GetByID($id,null,'content');
-				
+
 				$iblock_name = $con_info['page_id'];
-				
+
 			} else {
 				if(is_numeric($routes[3])){
 					$id = $routes[3];
 					$con_info = Element::GetByID($id,null,'content');
-					
+
 					$iblock_name = $con_info['page_id'];
 				} else {
 					$iblock_name = $routes[1];
 				}
 			}
-			
+
 		?>
 		<input type="hidden" name="main[page_id]" value="<?=$iblock_name?>" />
 		<? } ?>
-		
+
 		<div id="tab-container">
 			<ul>
-	
+
 			<?if(isset($base) && count($base) > 0){?>
 				<li><a href="#tab-base">Общие настройки</a></li>
 			<? } ?>
@@ -148,14 +148,14 @@ foreach($data['FIELDS'] as $key => $val){
 				<li><a href="#tab-parent">Категории</a></li>
 			<? } ?>
 			</ul>
-			
+
 			<?if(isset($base) && count($base) > 0){?>
 			<div id="tab-base" class="container-block">
 				<table>
 				<? foreach($base as $key => $val){ ?>
 					<? if($val['input_type'] != 'hidden'){
-						
-						
+
+
 					?>
 						<tr>
 							<td class="input-label">
@@ -168,11 +168,11 @@ foreach($data['FIELDS'] as $key => $val){
 					<? } else { ?>
 						<?=Element::inputShow($val)?>
 					<? } ?>
-				<? } ?>	
-				
+				<? } ?>
+
 				</table>
 				<div class="submit">
-					<input class="section-btn send" type="submit" name="send" value="Сохранить"/> 
+					<input class="section-btn send" type="submit" name="send" value="Сохранить"/>
 				</div>
 			</div>
 			<? } ?>
@@ -192,11 +192,11 @@ foreach($data['FIELDS'] as $key => $val){
 					<? } else { ?>
 						<?=Element::inputShow($val)?>
 					<? } ?>
-				<? } ?>	
-				</table>	
+				<? } ?>
+				</table>
 				<div class="submit">
-					<input class="section-btn send" type="submit" name="send" value="Сохранить"/> 
-				</div>				
+					<input class="section-btn send" type="submit" name="send" value="Сохранить"/>
+				</div>
 			</div>
 			<? } ?>
 			<?if(isset($shablon) && count($shablon) > 0){?>
@@ -214,11 +214,11 @@ foreach($data['FIELDS'] as $key => $val){
 						</tr>
 					<? } else { ?>
 						<?=Element::inputShow($val)?>
-					<? } ?>	
-				<? } ?>	
+					<? } ?>
+				<? } ?>
 				</table>
 				<div class="submit">
-					<input class="section-btn send" type="submit" name="send" value="Сохранить"/> 
+					<input class="section-btn send" type="submit" name="send" value="Сохранить"/>
 				</div>
 			</div>
 			<? } ?>
@@ -237,11 +237,11 @@ foreach($data['FIELDS'] as $key => $val){
 						</tr>
 					<? } else { ?>
 						<?=Element::inputShow($val)?>
-					<? } ?>	
+					<? } ?>
 				<? } ?>
 				</table>
 				<div class="submit">
-					<input class="section-btn send" type="submit" name="send" value="Сохранить"/> 
+					<input class="section-btn send" type="submit" name="send" value="Сохранить"/>
 				</div>
 			</div>
 			<? } ?>
@@ -249,12 +249,12 @@ foreach($data['FIELDS'] as $key => $val){
 			<div id="tab-menu" class="container-block">
 				<table>
 				<? foreach($menu as $key => $val){ ?>
-					<? if($val['input_type'] != 'hidden'){ 
-					
+					<? if($val['input_type'] != 'hidden'){
+
 						if($val['code'] == 'main[menu_type]'){
 							$params = array("type" => "menu");
 							$array = DBConnect::init()->getMemu(null, $params, $table="modules");
-							
+
 							$names = "";
 							$values = "";
 							foreach($array as $cur => $val_menu){
@@ -263,7 +263,7 @@ foreach($data['FIELDS'] as $key => $val){
 							}
 							$val['default_value'] = $values;
 							$val['default_names'] = $names;
-							
+
 						}
 					?>
 						<tr>
@@ -277,10 +277,10 @@ foreach($data['FIELDS'] as $key => $val){
 					<? } else { ?>
 						<?=Element::inputShow($val)?>
 					<? } ?>
-				<? } ?>	
+				<? } ?>
 				</table>
 				<div class="submit">
-					<input class="section-btn send" type="submit" name="send" value="Сохранить"/> 
+					<input class="section-btn send" type="submit" name="send" value="Сохранить"/>
 				</div>
 			</div>
 			<? } ?>
@@ -299,11 +299,11 @@ foreach($data['FIELDS'] as $key => $val){
 						</tr>
 					<? } else { ?>
 						<?=Element::inputShow($val)?>
-					<? } ?>	
-				<? } ?>	
+					<? } ?>
+				<? } ?>
 				</table>
 				<div class="submit">
-					<input class="section-btn send" type="submit" name="send" value="Сохранить"/> 
+					<input class="section-btn send" type="submit" name="send" value="Сохранить"/>
 				</div>
 			</div>
 			<? } ?>
@@ -322,11 +322,11 @@ foreach($data['FIELDS'] as $key => $val){
 						</tr>
 					<? } else { ?>
 						<?=Element::inputShow($val)?>
-					<? } ?>	
+					<? } ?>
 				<? } ?>
 				</table>
 				<div class="submit">
-					<input class="section-btn send" type="submit" name="send" value="Сохранить"/> 
+					<input class="section-btn send" type="submit" name="send" value="Сохранить"/>
 				</div>
 			</div>
 			<? } ?>
@@ -345,29 +345,29 @@ foreach($data['FIELDS'] as $key => $val){
 						</tr>
 					<? } else { ?>
 						<?=Element::inputShow($val)?>
-					<? } ?>	
+					<? } ?>
 				<? } ?>
 				</table>
 				<div class="submit">
-					<input class="section-btn send" type="submit" name="send" value="Сохранить"/> 
+					<input class="section-btn send" type="submit" name="send" value="Сохранить"/>
 				</div>
 			</div>
 			<? } ?>
-			
+
 	</form>
 	<?if($iblock_name == 'pages'){?>
 			<div id="tab-alter" class="container-block" style="background: none !important;">
-			
+
 			<?
 			$params = array("type" => $page['name']);
 			$sort = array("sort", "asc");
 			$data['alter'] = DBConnect::init()->getFeilds($params, $sort);
 			?>
-			
+
 				<div class="left">
 				<form id="alter-fields" method="POST" type="">
 				<input type="hidden" name="action" value="save_fields" />
-				<input type="hidden" name="module" value="form" /> 
+				<input type="hidden" name="module" value="form" />
 				<input type="hidden" name="page_id" value="<?=$page['name']?>" />
 				<input type="hidden" name="iblock" value="content" />
 				<table style="color: black; margin-bottom: 50px; background: rgba(255,255,255,0.7)">
@@ -385,19 +385,19 @@ foreach($data['FIELDS'] as $key => $val){
 							<th></th>
 						</tr>
 				<? if(isset($data['alter']) && count($data['alter']) > 0) { ?>
-					<? foreach($data['alter'] as $key => $val){ 
+					<? foreach($data['alter'] as $key => $val){
 					?>
 						<tr>
 							<td><input type="checkbox" name="alter[<?=$val['id']?>][del]" value="Y" /></td>
 							<td class="input-label">
 								<?=$val['id']?>
-								
+
 							</td>
 							<td class="input-label">
 								<input type="text" name="alter[<?=$val['id']?>][name]" value="<?=$val['name']?>" />
 							</td>
 							<td class="input-label">
-								<select name="alter[<?=$val['id']?>][input_type]"> 
+								<select name="alter[<?=$val['id']?>][input_type]">
 									<option value="text" <?=($val['input_type'] == 'text') ? 'selected="selected"' : ''?>>text</option>
 									<option value="html" <?=($val['input_type'] == 'html') ? 'selected="selected"' : ''?>>html</option>
 									<option value="select" <?=($val['input_type'] == 'select') ? 'selected="selected"' : ''?>>select</option>
@@ -409,24 +409,24 @@ foreach($data['FIELDS'] as $key => $val){
 								</select>
 							</td>
 							<td class="input-label">
-								<input type="checkbox" name="alter[<?=$val['id']?>][active]" value="<?=$val['active']?>" <?=($val['active'] == 'Y') ? 'checked="checked"' : ''?>/>								
+								<input type="checkbox" name="alter[<?=$val['id']?>][active]" value="<?=$val['active']?>" <?=($val['active'] == 'Y') ? 'checked="checked"' : ''?>/>
 							</td>
 							<td class="input-label">
-								<input type="checkbox" name="alter[<?=$val['id']?>][required]" value="<?=$val['required']?>" <?=($val['required'] == 'Y') ? 'checked="checked"' : ''?>/>								
+								<input type="checkbox" name="alter[<?=$val['id']?>][required]" value="<?=$val['required']?>" <?=($val['required'] == 'Y') ? 'checked="checked"' : ''?>/>
 							</td>
 							<td class="input-label">
-								<input type="checkbox" name="alter[<?=$val['id']?>][readonly]" value="<?=$val['readonly']?>" <?=($val['readonly'] == 'Y') ? 'checked="checked"' : ''?>/>								
+								<input type="checkbox" name="alter[<?=$val['id']?>][readonly]" value="<?=$val['readonly']?>" <?=($val['readonly'] == 'Y') ? 'checked="checked"' : ''?>/>
 							</td>
 							<td class="input-label">
-								<input type="text" name="alter[<?=$val['id']?>][sort]" value="<?=$val['sort']?>" style="width: 35px;"/>								
+								<input type="text" name="alter[<?=$val['id']?>][sort]" value="<?=$val['sort']?>" style="width: 35px;"/>
 							</td>
 							<td class="input-label">
 								<input type="text" name="alter[<?=$val['id']?>][code]" value="<?=$val['code']?>" />
 							</td>
 							<td><span id="<?=$val['id']?>" class="settings">настройки</span></td>
 						</tr>
-					<? } ?>	
-					
+					<? } ?>
+
 				<? } ?>
 					</tbody>
 				</table>
@@ -438,15 +438,15 @@ foreach($data['FIELDS'] as $key => $val){
 					<option value="activate">активны</option>
 				</select>
 				</div>
-				
+
 				<div class="right" style="width: 27% !important;">
-				
+
 				<? foreach($data['alter'] as $key => $val){ ?>
 					<div id="settingsup<?=$val['id']?>" class="settingsup">
-						
-							
+
+
 							<h4 style="color: orange;">Настройки доп поля ID<?=$val['id']?></h4>
-							
+
 							<table style="margin-left: 25px;">
 							<tr>
 								<td class="input-label">VALUES</td>
@@ -468,12 +468,12 @@ foreach($data['FIELDS'] as $key => $val){
 					</div>
 				<? } ?>
 				</div>
-				
+
 				<div class="submit" style="clear">
-					<input class="section-btn send" type="submit" name="send" value="Сохранить"/> 
+					<input class="section-btn send" type="submit" name="send" value="Сохранить"/>
 				</div>
 			</form>
 			</div>
 	<? } ?>
 		</div>
-		
+

@@ -179,9 +179,7 @@ class Element
     static function Delete($where, $table){
 
         $result = DBConnect::init()->Delete($where, $table);
-
         return $result;
-
     }
 
     static function SaveElements($array, $table=null){
