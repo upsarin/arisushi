@@ -250,7 +250,7 @@
         var sizeName = "full";
         var size = "1";
         var name = $(".menu-item#"+elementId+" .menu-item-one .menu-item-name").html();
-        var price = $(".menu-item#"+elementId+" .menu-item-one .menu-elem-price").html();
+        var price = parseInt($(".menu-item#"+elementId+" .menu-item-one .menu-elem-price").html());
         var weight;
         var sous = null;
         var garnir = null;
@@ -275,8 +275,9 @@
             size = "1/2";
             weight = $(".menu-item#"+elementId+" .menu-item-one-half .menu-item-weight").html();
             name = $(".menu-item#"+elementId+" .menu-item-one-half .menu-item-name").html();
-            price = $(".menu-item#"+elementId+" .menu-item-one-half .menu-item-price").html();
+            price = parseInt($(".menu-item#"+elementId+" .menu-item-one-half .menu-item-price").html());
         }
+
         sendProductToBusket(elementId, sizeName, name, size, price, weight, sous, garnir);
     });
 
@@ -285,7 +286,7 @@
         var sizeName = "full";
         var size = "1";
         var name = $(".menu-item#"+elementId+" .menu-item-one .menu-item-name").html();
-        var price = $(".menu-item#"+elementId+" .menu-item-one .menu-elem-price").html();
+        var price = parseInt($(".menu-item#"+elementId+" .menu-item-one .menu-elem-price").html());
         var weight;
         var sous = null;
         var garnir = null;
@@ -308,8 +309,9 @@
             size = "1/2";
             weight = $(".menu-item#"+elementId+" .menu-item-one-half .menu-item-weight").html();
             name = $(".menu-item#"+elementId+" .menu-item-one-half .menu-item-name").html();
-            price = $(".menu-item#"+elementId+" .menu-item-one-half .menu-item-price").html();
+            price = parseInt($(".menu-item#"+elementId+" .menu-item-one-half .menu-item-price").html());
         }
+        console.log(price);
         sendProductToBusket(elementId, sizeName, name, size, price, weight, sous, garnir);
 
     });

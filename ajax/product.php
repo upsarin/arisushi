@@ -25,7 +25,7 @@
     </div>
     <div class="element-window-text">
         <div class="menu-item-one">
-            <div class="element-window-text-name"><?=$element['name']?></div>
+            <div class="element-window-text-name"><?=$element['title']?></div>
             <div class="element-window-text-text"><?=$element['desc']?></div>
             <div style="background-color: #c6c6c6;height: 1px;width: 100%;margin-top: 21px;"></div>
             <div class="element-window-text-tovar-one">
